@@ -179,7 +179,7 @@ class DoublyLinkedList {
     }
 }
 
-public class DoublyList {
+public class DLinkedList {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         DoublyLinkedList dll = new DoublyLinkedList();
@@ -238,6 +238,7 @@ public class DoublyList {
                 default:
                     System.out.println("Invalid choice!");
             }
+            in.close();
         }
     }
 }
